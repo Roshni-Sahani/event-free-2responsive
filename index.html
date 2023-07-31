@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <header class="bg-img">
-        <div class="container pt-20">
-            <nav class="text-white mb-130">
+    <header class="bg-img d-flex flex-column">
+        <nav class="text-white pt-10">
+            <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="d-flex align-items-center page-logo">
                         <img src="assets/images/png/logo.png" alt="logo">
@@ -24,95 +24,105 @@
                         <span></span>
                     </label>
                     <input type="checkbox" id="menubar" hidden>
-                    <ul class="d-flex flex-column align-items-center ff_poppins gap-50 fw-700 mobile-view ">
+                    <ul class="d-flex align-items-center ff_poppins gap-50 fw-700 mobile-view ">
                         <li><a href="" class="fw-400 text-white ff_poppins">HOME </a></li>
                         <li><a href="" class=" text-white ff_poppins">EVENTS</a></li>
                         <li><a href="" class="text-white ff_poppins">FEED</a></li>
-                        <li><a href="" class=" text-white ff_poppins">USER NAME</a></li>
-                        <li><a href="" class="btn text-white fw-400">Log Out</a></li>
+                        <li><a href="" class="text-white ff_poppins">USER NAME</a></li>
+                        <li><a href="" class="btn text-white fw-600 pt-13">Log Out</a></li>
                     </ul>
                 </div>
-            </nav>
-            <div class="pos-rel d-infl">
-                <p class="text-white max-w-1044 log pb-18 fs-lg-64 fs-md-50 fs-sm-39">Sed tortor in quisque morbi
-                    scelerisque etiam eu.
-                </p>
-                <span class="d-block d-none">
-                    <img src="assets/images/svg/line.svg" alt="line" class="pos-absolute1">
-                </span>
             </div>
-            <p class="text-white mw-765 pb-33 home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                efficitur urna in
-                dictum suscipit.
-                Suspendisse maximus
-                ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu. Nunc elit elit, malesuada id suscipit
-                cursus,</p>
-            <div class="d-flex align-item-center gap-30 pb-135">
-                <button class="text-white get">Get Started</button>
-                <a href="" class="text-white ff_poppins">Learn more</a>
-            </div>
-            <div class="row">
-                <div class="col-lg-9 col-12 pb-104">
-                    <div class="row bg-blue line2 ">
-                        <div class=" col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center">
-                            <div class="d-flex">
-                                <span class="mr-17 pt-32">
-                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M15.5 16.792C17.6401 16.792 19.375 15.0571 19.375 12.917C19.375 10.7769 17.6401 9.04199 15.5 9.04199C13.3599 9.04199 11.625 10.7769 11.625 12.917C11.625 15.0571 13.3599 16.792 15.5 16.792Z"
-                                            stroke="white" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                        <path
-                                            d="M15.5003 2.5835C12.7598 2.5835 10.1314 3.67218 8.19356 5.61006C6.25568 7.54794 5.16699 10.1763 5.16699 12.9168C5.16699 15.3607 5.68624 16.9597 7.10449 18.7293L15.5003 28.4168L23.8962 18.7293C25.3144 16.9597 25.8337 15.3607 25.8337 12.9168C25.8337 10.1763 24.745 7.54794 22.8071 5.61006C20.8692 3.67218 18.2409 2.5835 15.5003 2.5835V2.5835Z"
-                                            stroke="white" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                    </svg>
-                                </span>
-                                <div class="">
-                                    <p class="text-white location pt-32">Location</p>
-                                    <p class="text-white city pb-32">Search by city</p>
+        </nav>
+        <div class="grow-1 d-flex align-item-center min-100vh">
+            <div class="container">
+                <div class="pos-rel d-infl">
+                    <p class="text-white max-w-1044 log pb-18 fs-lg-64 fs-md-50 fs-sm-39">Sed tortor in
+                        quisque
+                        morbi
+                        scelerisque etiam eu.
+                    </p>
+                    <span class="d-block d-none">
+                        <img src="assets/images/svg/line.svg" alt="line" class="pos-absolute1">
+                    </span>
+                </div>
+                <p class="text-white mw-765 home mb-33">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc
+                    efficitur urna in
+                    dictum suscipit.
+                    Suspendisse maximus
+                    ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu. Nunc elit elit,
+                    malesuada id
+                    suscipit
+                    cursus,</p>
+                <div class="d-flex align-item-center gap-30">
+                    <button class="text-white get mb-130">Get Started</button>
+                    <a href="" class="text-white ff_poppins mb-130">Learn more</a>
+                </div>
+                <div class="row">
+                    <div class="col-lg-9 col-12">
+                        <div class="row bg-blue line2 ">
+                            <div class=" col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center">
+                                <div class="d-flex">
+                                    <span class="mr-17 pt-32">
+                                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.5 16.792C17.6401 16.792 19.375 15.0571 19.375 12.917C19.375 10.7769 17.6401 9.04199 15.5 9.04199C13.3599 9.04199 11.625 10.7769 11.625 12.917C11.625 15.0571 13.3599 16.792 15.5 16.792Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M15.5003 2.5835C12.7598 2.5835 10.1314 3.67218 8.19356 5.61006C6.25568 7.54794 5.16699 10.1763 5.16699 12.9168C5.16699 15.3607 5.68624 16.9597 7.10449 18.7293L15.5003 28.4168L23.8962 18.7293C25.3144 16.9597 25.8337 15.3607 25.8337 12.9168C25.8337 10.1763 24.745 7.54794 22.8071 5.61006C20.8692 3.67218 18.2409 2.5835 15.5003 2.5835V2.5835Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    <div class="">
+                                        <p class="text-white location pt-32">Location</p>
+                                        <p class="text-white city pb-32">Search by city</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center ">
-                            <div class="d-flex line ">
-                                <span class="mr-17 pt-32">
-                                    <img src="assets/images/png/Vector.png" alt="vector">
-                                </span>
-                                <div class="">
-                                    <p class="text-white location pt-32">Date</p>
-                                    <p class="text-white city pb-32">09/23/2021</p>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center ">
+                                <div class="d-flex line ">
+                                    <span class="mr-17 pt-32">
+                                        <img src="assets/images/png/Vector.png" alt="vector">
+                                    </span>
+                                    <div class="">
+                                        <p class="text-white location pt-32">Date</p>
+                                        <p class="text-white city pb-32">09/23/2021</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class=" col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center">
-                            <div class="d-flex line1">
-                                <span class="mr-17 pt-32">
-                                    <img src="assets/images/png/akar-icons_people-group.png" alt="icon">
-                                </span>
-                                <div class="">
-                                    <p class="text-white location pt-32">Capicity</p>
-                                    <p class="text-white city pb-32">Search by city</p>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center">
+                                <div class="d-flex line1">
+                                    <span class="mr-17 pt-32">
+                                        <img src="assets/images/png/akar-icons_people-group.png" alt="icon">
+                                    </span>
+                                    <div class="">
+                                        <p class="text-white location pt-32">Capicity</p>
+                                        <p class="text-white city pb-32">Search by city</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class=" col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center">
-                            <div class="d-flex justify-content-center justify-content-end">
-                                <button class="btn2 check1 mt-16">GO CHECK</button>
+                            <div
+                                class=" col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-end justify-content-center">
+                                <div class="d-flex justify-content-center justify-content-end">
+                                    <button class="btn2 check1 mt-16">GO CHECK</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </header>
     <div class="container">
         <div class="row d-flex pt-137">
-            <div class="col-lg-6 col-12">
+            <div class="col-lg-6 col-12 ">
                 <div class="pos-rel">
-                    <img src="assets/images/png/mirror.img" alt="mirror" class="w-100">
-
+                    <img src="assets/images/png/img1.png" alt="2" class="w-100">
                     <div class="p-absolute">
                         <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="39.6018" cy="40.1824" r="37.9517" stroke="white" stroke-width="3.30015" />
@@ -140,9 +150,9 @@
                         suscipit
                         cursus,</p>
                 </div>
-                <div class="row pt-81">
+                <div class="row pt-50">
                     <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-lg-start justify-content-center">
-                        <div class="box pos-rel">
+                        <div class="box pos-rel mt-50">
                             <div class="pt-50">
                                 <div class="d-flex align-item-center justify-content-center">
                                     <p class="sharing">Sharing</p>
@@ -166,10 +176,9 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-lg-start justify-content-center">
-                        <div class="box pos-rel">
+                        <div class="box pos-rel pb-36 mt-50">
                             <div class="pt-50">
                                 <div class="d-flex align-item-center justify-content-center">
                                     <p class="sharing">Info</p>
@@ -195,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" d-flex justify-content-center">
+                <div class=" d-flex justify-content-center mt-16">
                     <div class="box pos-rel mb-73 mt-36 justify-content-lg-start justify-content-center">
                         <div class="pt-50">
                             <div class="d-flex align-item-center justify-content-center">
@@ -326,7 +335,7 @@
                     </svg>
                 </a>
                 <div class="d-flex justify-content-center justify-content-lg-start">
-                    <h3 class="our mw-338 text-align-center">Explore our latest events</h3>
+                    <h3 class="our mw-338">Explore our latest events</h3>
                 </div>
                 <div class="d-flex justify-content-center justify-content-lg-start">
                     <p class="mw-543 lorem pb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
@@ -352,21 +361,25 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-12">
-                        <img src="assets/images/png/Rectangle.31.png" alt="31" class="w-100">
-                        <div class="pos-rel">
-                            <span class="pos-absolute2">
-                                <svg width="56" height="24" viewBox="0 0 56 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M55.0607 13.0607C55.6465 12.4749 55.6465 11.5251 55.0607 10.9393L45.5147 1.39339C44.9289 0.807608 43.9792 0.807608 43.3934 1.39339C42.8076 1.97918 42.8076 2.92893 43.3934 3.51472L51.8787 12L43.3934 20.4853C42.8076 21.0711 42.8076 22.0208 43.3934 22.6066C43.9792 23.1924 44.9289 23.1924 45.5147 22.6066L55.0607 13.0607ZM1.31134e-07 13.5L54 13.5L54 10.5L-1.31134e-07 10.5L1.31134e-07 13.5Z"
-                                        fill="white" />
-                                </svg>
-                            </span>
+                        <div class="card">
+                            <div class="pos-rel">
+                                <img src="assets/images/png/Rectangle.31.png" alt="31" class="w-100 ">
+                                <span class="pos-absolute2">
+                                    <svg width="56" height="24" viewBox="0 0 56 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M55.0607 13.0607C55.6465 12.4749 55.6465 11.5251 55.0607 10.9393L45.5147 1.39339C44.9289 0.807608 43.9792 0.807608 43.3934 1.39339C42.8076 1.97918 42.8076 2.92893 43.3934 3.51472L51.8787 12L43.3934 20.4853C42.8076 21.0711 42.8076 22.0208 43.3934 22.6066C43.9792 23.1924 44.9289 23.1924 45.5147 22.6066L55.0607 13.0607ZM1.31134e-07 13.5L54 13.5L54 10.5L-1.31134e-07 10.5L1.31134e-07 13.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+
+                            <p class="parent">09/23/2021</p>
+                            <p class="sit">Lorem ipsum</p>
+                            <p class="dolor mw-270">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                efficitur
+                                urna in</p>
                         </div>
-                        <p class="parent">09/23/2021</p>
-                        <p class="sit">Lorem ipsum</p>
-                        <p class="dolor mw-270">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur
-                            urna in</p>
                     </div>
                 </div>
             </div>
@@ -388,7 +401,8 @@
                     <h2 class="join pb-5">Join Us !</h2>
                 </div>
                 <div class="d-flex justify-content-center justify-content-lg-start">
-                    <p class="font amet pb-15 mw-543">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                    <p class="font amet pb-15 mw-543">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc
                         efficitur
                         urna
                         in dictum suscipit.
@@ -396,19 +410,22 @@
                         ipsum sem. Donec ut justo et leo congue</p>
                 </div>
                 <div class="d-flex justify-content-center justify-content-lg-start">
-                    <h3 class="leo">Sign Up</h3>
+                    <h3 class="leo pb-13">Sign Up</h3>
                 </div>
                 <form>
-                    <div class="d-flex">
-                        <input type="text" placeholder="First Name" class="w-50 first mb-16 mr-17 pl-17">
-                        <input type="text" placeholder="Last Name" class="w-50 last pl-17">
+                    <div class="d-flex w-100">
+                        <input type="text" placeholder="First Name" class="first mb-16 mr-17 pl-17 w-50">
+                        <input type="text" placeholder="Last Name" class="last pl-17 w-50">
                     </div>
-                    <input type="text" placeholder="Email Address" class="w-50 email mb-16 pl-17">
-                    <div class="d-flex">
-                        <input type="text" placeholder="Password" class="w-100 first mr-16 pl-17">
-                        <input type="text" placeholder="Confirm Password" class="w-50 last mr-16 pl-17">
+                    <div class="w-100">
+                        <input type="text" placeholder="Email Address" class="w-100 email mb-16 pl-17">
                     </div>
-                    <input type="text" placeholder="About Me" class="w-100 about mt-16 pl-17">
+                    <div class="d-flex w-100">
+                        <input type="password" placeholder="Password" class=" first mr-16 pl-17 w-50">
+                        <input type="password" placeholder="Confirm Password" class=" last pl-17 w-50">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="About Me"
+                        class="w-100 mt-16 pl-17 pt-10 about"></textarea>
                     <button class="sign up mt-37">Sign up</button>
                 </form>
             </div>
@@ -417,7 +434,7 @@
     <footer class="bg-black">
         <div class="container">
             <div class="row pt-81">
-                <div class="col-lg-5 col-12">
+                <div class="col-lg-5 col-12 pb-22">
                     <div class="pb-36 d-flex">
                         <a href=""><img src="./assets/images/png/logo.png" alt="logo"></a>
                         <span class="text-blue fs-36 ff_poppins fw-700">Events</span>
@@ -477,7 +494,7 @@
                 </div>
                 <div class="col-lg-7  text-align-lg-left col-12">
                     <div class="row">
-                        <ul class="col-lg-3 col-sm-6 col-12">
+                        <ul class="col-lg-3 col-6">
                             <li class=" pb-11"><a href="" class="text-white ff_poppins fw-700">SERVICES</a></li>
                             <li class=" pb-12"><a href="" class="text-white ff_poppins">About</a></li>
                             <li class="pb-12"><a href="" class="text-white ff_poppins">News</a></li>
@@ -485,7 +502,7 @@
                             </li>
                             <li class="pb-12"><a href="" class="text-white  ff_poppins">Contact</a></li>
                         </ul>
-                        <ul class="col-lg-3 col-sm-6 col-12">
+                        <ul class="col-lg-3 col-6">
                             <li class=" pb-11"><a href="" class="text-white  ff_poppins fw-400 fw-700">EVENTS</a>
                             </li>
                             <li class=" pb-12 "><a href="" class="text-white ff_poppins ">ullamcorper</a>
@@ -496,10 +513,7 @@
                             </li>
                             <li class=" pb-12 "><a href="" class="text-white  ff_poppins ">ullamcorper</a>
                             </li>
-                            <li class=" pb-12 "><a href="" class="text-white  ff_poppins ">ullamcorper</a>
-                            </li>
                         </ul>
-
                         <div class="col-lg-6 col-12">
                             <p class="text-white ff_poppins fw-700 pb-9">GALLERY</p>
                             <div class="row pt-10">
